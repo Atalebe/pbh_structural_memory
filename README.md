@@ -43,8 +43,8 @@ pbh_structural_memory/
  │    │      ├── fig_survival.pdf
  │    │      ├── fig_smbh_growth.pdf
  │    │      ├── fig_mass_function.pdf
- │    │      └── (any others)
- │    └── (anything else needed for LaTeX compile)
+ │    │      
+ │    └
  ├── simulations/
  │    ├── run_alignment_threshold.py
  │    ├── run_mass_function_sim.py
