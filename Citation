@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this code or figures, please cite the associated paper."
+title: "Anisotropic primordial black holes as a fossil record from a pre-Big Bang universe"
+authors:
+  - family-names: "Atalebe"
+    given-names: "Stephen"
+    affiliation: "Masaryk University, Brno, Czech Republic"
+date-released: 2025-12-03
+version: "1.0.0"
+doi: ""   # fill in once you have one
+type: article
+url: "https://github.com/<your-username>/pbh_structural_memory"
