@@ -29,25 +29,32 @@ The repository includes the Monte Carlo forecasts for:
 
 ```text
 pbh_structural_memory/
-├── README.md
-├── LICENSE
-├── CITATION.cff           # optional
-├── environment.yml        # or requirements.txt
-├── paper/
-│   ├── main.tex           # LaTeX source (Scientific Reports / A&A style)
-│   ├── pbh_bounce.bib     # bibliography
-│   ├── fig1.pdf           # PBH survival window
-│   ├── fig2.pdf           # SMBH seed growth tracks
-│   ├── fig3.pdf           # schematic dual–component mass function
-│   └── fig_anisotropy.pdf # schematic PBH dipole-like modulation
-├── figs/
-│   ├── alignment_threshold_curve.png       # PBH–CMB alignment sensitivity
-│   ├── mass_function_discrimination.png    # mass–function detection probability
-│   └── fig_anisotropy.png                  # illustrative anisotropy sky
-└── code/
-    └── pbh_alignment_test/
-        ├── run_alignment_scan.py           # PBH–CMB alignment Monte Carlo
-        ├── run_mass_function_sim.py        # mass–function Bayes factor forecast
-        ├── run_gw_anisotropy_proj.py       # GW projection–statistic forecast
-        ├── run_gw_anisotropy_sim.py        # (optional) earlier GW estimator
-        └── make_fig_anisotropy.py          # generates fig_anisotropy.* files
+ ├── paper/
+ │    ├── main.tex
+ │    ├── pbh_bounce.bib
+ │    ├── all_figures/
+ │    │      ├── alignment_threshold_curve.png
+ │    │      ├── mass_function_discrimination.png
+ │    │      ├── fig_anisotropy.png
+ │    │      ├── fig_anisotropy.pdf
+ │    │      ├── fig1.pdf
+ │    │      ├── fig2.pdf
+ │    │      ├── fig3.pdf
+ │    │      ├── fig_survival.pdf
+ │    │      ├── fig_smbh_growth.pdf
+ │    │      ├── fig_mass_function.pdf
+ │    │      └── (any others)
+ │    └── (anything else needed for LaTeX compile)
+ ├── simulations/
+ │    ├── run_alignment_threshold.py
+ │    ├── run_mass_function_sim.py
+ │    ├── run_gw_anisotropy_proj.py
+ │    ├── make_fig_anisotropy.py
+ │    ├── utils/
+ │    │     ├── anisotropy_tools.py
+ │    │     └── mass_tools.py
+ │    └── outputs/
+ │          ├── alignment_threshold_curve.png
+ │          ├── mass_function_discrimination.png
+ │          └── fig_anisotropy.png
+ └── README.md
